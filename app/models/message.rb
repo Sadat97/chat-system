@@ -14,9 +14,8 @@ class Message < ApplicationRecord
   def self.search(query)
     __elasticsearch__.search(
       query: {
-        multi_match: {
-          query: query,
-          fields: ['body']
+        match: {
+          body: query
         }
       }
     )
