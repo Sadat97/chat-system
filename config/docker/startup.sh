@@ -8,7 +8,7 @@ sh ./config/docker/wait-for-services.sh
 sh ./config/docker/prepare-db.sh
 
 # Pre-compile app assets
-sh ./config/docker/asset-pre-compile.sh
+#sh ./config/docker/asset-pre-compile.sh
 
 # Start Application
 bundle exec puma -C config/puma.rb
