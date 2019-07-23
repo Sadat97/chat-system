@@ -31,6 +31,7 @@
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v5.2.3, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v5.2.3, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v5.2.3, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_model_serializers (v0.10.9, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v5.2.3, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v5.2.3, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v5.2.3, rbenv: 2.5.0-dev) [gem]" level="application" />
@@ -41,13 +42,22 @@
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.17.2, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v11.0.1, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="case_transform (v0.2, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.2, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.5, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="elasticsearch (v7.2.0, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="elasticsearch-api (v7.2.0, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="elasticsearch-model (v6.0.0, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="elasticsearch-rails (v6.0.0, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="elasticsearch-transport (v7.2.0, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.8.0, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday (v0.15.4, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.11.1, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hashie (v3.6.0, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.6.0, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jsonapi-renderer (v0.2.0, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.1.5, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.2.3, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, rbenv: 2.5.0-dev) [gem]" level="application" />
@@ -58,6 +68,8 @@
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.4.0, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.11.3, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.3.0, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.13.1, rbenv: 2.5.0-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multipart-post (v2.1.1, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.5.2, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.4.0, rbenv: 2.5.0-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.10.3, rbenv: 2.5.0-dev) [gem]" level="application" />

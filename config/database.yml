@@ -15,10 +15,8 @@ default: &default
   collation: utf8mb4_bin
   reconnect: false
   pool: 50
-  username: <%= ENV['DB_USERNAME'] %>
-  password: <%= ENV['DB_PASSWORD'] %>
-  port: <%= ENV['DB_PORT'] %>
-  host: <%= ENV['DB_HOST'] %>
+  username: sadat
+  password: sadat
   socket: /var/run/mysqld/mysqld.sock
 
 development:

@@ -6,7 +6,12 @@ RUN mkdir /app
 WORKDIR /app
 
 COPY Gemfile Gemfile.lock ./
+RUN gem install bundler:1.17.2
+RUN gem update --system
+RUN bundler install
 RUN gem install ovirt-engine-sdk -v '4.3.0' --source 'https://rubygems.org/'
+RUN gem install case_transform
+RUN bundle update rake
 RUN bundle install --binstubs
 
 COPY . .

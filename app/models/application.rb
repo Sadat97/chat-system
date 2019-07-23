@@ -6,6 +6,6 @@ class Application < ApplicationRecord
   validates :name, presence: true
   validates :token, uniqueness: true
 
-  has_many :chats
-  private
+  has_many :chats, dependent: :destroy
+
 end
